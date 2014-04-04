@@ -1,10 +1,10 @@
 package bag;
 
 public abstract class Element {
-	private String name; //название
-	private int number; //порядковый номер	
-	private int valence; //валентность
-	private int energy; // энергия разрыва связи
+	private String name; //РЅР°Р·РІР°РЅРёРµ
+	private int number; //РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ
+	private int valence; //РІР°Р»РµРЅС‚РЅРѕСЃС‚СЊ
+	private int energy; // СЌРЅРµСЂРіРёСЏ СЂР°Р·СЂС‹РІР° СЃРІСЏР·Рё
 	public Element(String name,int number,int valence,int energy){
 		this.name=name;
 		this.number=number;

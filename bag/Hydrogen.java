@@ -10,7 +10,7 @@ public class Hydrogen extends Element {
 		double endEnergy=0;
 		if(obj.getNumber()==6 & obj.getValence()==4){
 			double molekCrEn=948;
-			System.out.println("Реакция с углеродом:");
+			System.out.println("Р РµР°РєС†РёСЏ СЃ СѓРіР»РµСЂРѕРґРѕРј:");
 			System.out.println();
 			endEnergy=molekCrEn-2*getEnergy()-obj.getEnergy();
 			System.out.println("2 H2 + C = CH4 +" + endEnergy + " kJ/mole");

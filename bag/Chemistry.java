@@ -16,23 +16,23 @@ public class Chemistry {
 		Element chlorine=new Chlorine(name6,num6,val6,energy6);
 		Scanner scan=new Scanner(System.in);
 		while(pick1!=0){
-			System.out.println("Выберите элемент:");
+			System.out.println("Р’С‹Р±РµСЂРёС‚Рµ СЌР»РµРјРµРЅС‚:");
     		System.out.println("_________________");
-    		System.out.println("1.Кислород");
-    		System.out.println("2.Водород");
-    		System.out.println("3.Сера");
-    		System.out.println("4.Углерод");
-    		System.out.println("5.Натрий");
-    		System.out.println("6.Хлор");
+    		System.out.println("1.РљРёСЃР»РѕСЂРѕРґ");
+    		System.out.println("2.Р’РѕРґРѕСЂРѕРґ");
+    		System.out.println("3.РЎРµСЂР°");
+    		System.out.println("4.РЈРіР»РµСЂРѕРґ");
+    		System.out.println("5.РќР°С‚СЂРёР№");
+    		System.out.println("6.РҐР»РѕСЂ");
     		System.out.println("0.Exit");
     		System.out.println("_________________");
     		pick1=scan.nextInt();
     		switch(pick1){
     			case 1:{
     				while(pick2!=0){
-    				System.out.println("Выберите реакцию:");
-    				System.out.println("1.С водородом");
-    				System.out.println("2.С углеродом");
+    				System.out.println("Р’С‹Р±РµСЂРёС‚Рµ СЂРµР°РєС†РёСЋ:");
+    				System.out.println("1.РЎ РІРѕРґРѕСЂРѕРґРѕРј");
+    				System.out.println("2.РЎ СѓРіР»РµСЂРѕРґРѕРј");
     				System.out.println("0.Exit");
     				pick2=scan.nextInt();
     				switch(pick2){
@@ -65,9 +65,9 @@ public class Chemistry {
     			}
     			case 4:{
     				while(pick3!=0){
-    				System.out.println("Выберите реакцию:");
-    				System.out.println("1.С водородом");
-    				System.out.println("2.С кислородом");
+    				System.out.println("Р’С‹Р±РµСЂРёС‚Рµ СЂРµР°РєС†РёСЋ:");
+    				System.out.println("1.РЎ РІРѕРґРѕСЂРѕРґРѕРј");
+    				System.out.println("2.РЎ РєРёСЃР»РѕСЂРѕРґРѕРј");
     				System.out.println("0.Exit");
     				pick3=scan.nextInt();
     				switch(pick3){

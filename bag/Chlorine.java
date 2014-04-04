@@ -10,7 +10,7 @@ public class Chlorine extends Element{
 		double endEnergy=0;
 		if(obj.getNumber()==1 & obj.getValence()==1){
 			double molekCrEn=440.8;
-			System.out.println("Реакция с водородом:");
+			System.out.println("Р РµР°РєС†РёСЏ СЃ РІРѕРґРѕСЂРѕРґРѕРј:");
 			System.out.println();
 			endEnergy=2*molekCrEn-getEnergy()-obj.getEnergy();
 			System.out.println("H2 + Cl2 = 2 HCl +" + endEnergy + " kJ/mole  + BoOoM!");

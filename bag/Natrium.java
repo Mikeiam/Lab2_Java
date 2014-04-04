@@ -10,7 +10,7 @@ public class Natrium extends Element{
 		double endEnergy=0;
 		if(obj.getNumber()==17 & obj.getValence()==1){
 			double molekCrEn=540;
-			System.out.println("Ğåàêöèÿ ñ õëîğîì:");
+			System.out.println("Ğ ĞµĞ°ĞºÑ†Ğ¸Ñ Ñ Ñ…Ğ»Ğ¾Ñ€Ğ¾Ğ¼:");
 			System.out.println();
 			endEnergy=2*molekCrEn-2*getEnergy()-obj.getEnergy();
 			System.out.println("2 Na + Cl2 = 2 NaCl +" + endEnergy + " kJ/mole");
